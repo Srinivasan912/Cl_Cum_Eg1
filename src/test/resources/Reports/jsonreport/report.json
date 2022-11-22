@@ -1,0 +1,434 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1613499,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "The User Should be in HotelApp Login Page",
+            "match": {
+              "location": "StepDefinition.the_User_Should_be_in_HotelApp_Login_Page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-30T07:49:47.939Z",
+        "before": [
+          {
+            "result": {
+              "duration": 29340703200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeScenario()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "To Validate the Login Functionality with invalid Details",
+        "description": "",
+        "id": "to-validate-the-login-functionality-of-hotelapp-applications;to-validate-the-login-functionality-with-invalid-details;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 103400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 607963700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The User has to fill the Username \"Srini\" and password \"1234567\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Srini\"",
+                  "offset": 34
+                },
+                {
+                  "val": "\"1234567\"",
+                  "offset": 55
+                }
+              ],
+              "location": "StepDefinition.the_User_has_to_fill_the_Username_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5544122400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The User has to click the Login Button",
+            "match": {
+              "location": "StepDefinition.the_User_has_to_click_the_Login_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1553007999,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "The User Should navigate to invalid Error Message",
+            "match": {
+              "location": "StepDefinition.the_User_Should_navigate_to_invalid_Error_Message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@invalid"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 720000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "The User Should be in HotelApp Login Page",
+            "match": {
+              "location": "StepDefinition.the_User_Should_be_in_HotelApp_Login_Page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-30T07:50:25.272Z",
+        "before": [
+          {
+            "result": {
+              "duration": 16621433100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeScenario()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "To Validate the Login Functionality with valid Details",
+        "description": "",
+        "id": "to-validate-the-login-functionality-of-hotelapp-applications;to-validate-the-login-functionality-with-valid-details;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1353441101,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 501500400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "The User has to fill the Username \"TestCase00001\" and password \"password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"TestCase00001\"",
+                  "offset": 34
+                },
+                {
+                  "val": "\"password\"",
+                  "offset": 63
+                }
+              ],
+              "location": "StepDefinition.the_User_has_to_fill_the_Username_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9322729000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "The User has to click the Login Button",
+            "match": {
+              "location": "StepDefinition.the_User_has_to_click_the_Login_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 26191601,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "The User Should navigate to Home Page",
+            "match": {
+              "location": "StepDefinition.the_User_Should_navigate_to_Home_Page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@valid"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 780300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "The User Should be in HotelApp Login Page",
+            "match": {
+              "location": "StepDefinition.the_User_Should_be_in_HotelApp_Login_Page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-30T07:50:53.128Z",
+        "before": [
+          {
+            "result": {
+              "duration": 11993049399,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeScenario()"
+            }
+          }
+        ],
+        "line": 34,
+        "name": "To Validate the Login Functionality with invalid Details",
+        "description": "",
+        "id": "to-validate-the-login-functionality-of-hotelapp-applications;to-validate-the-login-functionality-with-invalid-details;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 88000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 452263001,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "The User has to fill the Username \"TestCase00001\" and password \"12345678\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"TestCase00001\"",
+                  "offset": 34
+                },
+                {
+                  "val": "\"12345678\"",
+                  "offset": 63
+                }
+              ],
+              "location": "StepDefinition.the_User_has_to_fill_the_Username_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1338277099,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "The User has to click the Login Button",
+            "match": {
+              "location": "StepDefinition.the_User_has_to_click_the_Login_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1263045800,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "The User Should navigate to invalid Error Message",
+            "match": {
+              "location": "StepDefinition.the_User_Should_navigate_to_invalid_Error_Message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@invalid"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1658101,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "The User Should be in HotelApp Login Page",
+            "match": {
+              "location": "StepDefinition.the_User_Should_be_in_HotelApp_Login_Page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-30T07:51:08.215Z",
+        "before": [
+          {
+            "result": {
+              "duration": 11763069000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeScenario()"
+            }
+          }
+        ],
+        "line": 44,
+        "name": "To Validate the Login Functionality with valid Details",
+        "description": "",
+        "id": "to-validate-the-login-functionality-of-hotelapp-applications;to-validate-the-login-functionality-with-valid-details;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 996133100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 419441200,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "The User has to fill the Username \"Srini\" and password \"1234567\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Srini\"",
+                  "offset": 34
+                },
+                {
+                  "val": "\"1234567\"",
+                  "offset": 55
+                }
+              ],
+              "location": "StepDefinition.the_User_has_to_fill_the_Username_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1058163901,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "The User has to click the Login Button",
+            "match": {
+              "location": "StepDefinition.the_User_has_to_click_the_Login_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: Valid Login\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.steps.StepDefinition.the_User_Should_navigate_to_Home_Page(StepDefinition.java:56)\r\n\tat ✽.The User Should navigate to Home Page(file:src/test/resources/Features/login.feature:40)\r\n",
+              "duration": 12778800,
+              "status": "failed"
+            },
+            "line": 40,
+            "name": "The User Should navigate to Home Page",
+            "match": {
+              "location": "StepDefinition.the_User_Should_navigate_to_Home_Page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@valid"
+          }
+        ]
+      }
+    ],
+    "name": "To Validate the login Functionality of HotelApp Applications",
+    "description": "",
+    "id": "to-validate-the-login-functionality-of-hotelapp-applications",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/login.feature",
+    "tags": []
+  }
+]
